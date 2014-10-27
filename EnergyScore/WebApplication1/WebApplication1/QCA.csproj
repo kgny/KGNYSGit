@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A598009-DD08-481E-B7AA-0342C4510370}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v10.2.Core, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DevExpress.Data.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxEditors.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxGridView.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DevExpress.Web.ASPxThemes.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v10.2.Web, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Naglibrary32, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b3c2ab9ec29ceba, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\NAG\NAG Library for .NET\Naglibrary32.dll</HintPath>
+    </Reference>
+    <Reference Include="SPC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SPC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\DevExpress.Data.v10.2.dll" />
+    <Content Include="bin\DevExpress.Utils.v10.2.dll" />
+    <Content Include="bin\DevExpress.Web.ASPxEditors.v10.2.dll" />
+    <Content Include="bin\DevExpress.Web.ASPxGridView.v10.2.dll" />
+    <Content Include="bin\DevExpress.Web.ASPxThemes.v10.2.dll" />
+    <Content Include="bin\DevExpress.Web.v10.2.dll" />
+    <Content Include="bin\Naglibrary32.dll" />
+    <Content Include="bin\SPC.dll" />
+    <Content Include="bin\WebApplication1.dll" />
+    <Content Include="bin\WebApplication1.pdb" />
+    <Content Include="DJSys\DJ_Act_Info.aspx" />
+    <Content Include="DJSys\DJ_Plan_Rev.aspx" />
+    <Content Include="DJSys\DJ_Plan_Send.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Main.aspx" />
+    <Content Include="ResourceRecycle.aspx" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery.ztree.all-3.1.js" />
+    <Content Include="Scripts\jquery.ztree.all-3.1.min.js" />
+    <Content Include="Scripts\jquery.ztree.core-3.1.js" />
+    <Content Include="Styles\!.gif" />
+    <Content Include="Styles\1.png" />
+    <Content Include="Styles\2.png" />
+    <Content Include="Styles\ad.gif" />
+    <Content Include="Styles\add.gif" />
+    <Content Include="Styles\back.gif" />
+    <Content Include="Styles\bg.gif" />
+    <Content Include="Styles\bigsize.jpg" />
+    <Content Include="Styles\bootnbg.jpg" />
+    <Content Include="Styles\bullet.gif" />
+    <Content Include="Styles\buttom-copy-bg.gif" />
+    <Content Include="Styles\buttom-left.gif" />
+    <Content Include="Styles\buttom-right.gif" />
+    <Content Include="Styles\buttom_bgs.gif" />
+    <Content Include="Styles\buttom_left2.gif" />
+    <Content Include="Styles\buttom_right2.gif" />
+    <Content Include="Styles\cancle.gif" />
+    <Content Include="Styles\card.jpg" />
+    <Content Include="Styles\check-out_.gif" />
+    <Content Include="Styles\close.gif" />
+    <Content Include="Styles\content-bg-line.gif" />
+    <Content Include="Styles\content-bg.gif" />
+    <Content Include="Styles\corner.png" />
+    <Content Include="Styles\database_import_.gif" />
+    <Content Include="Styles\DefaultDocs.gif" />
+    <Content Include="Styles\defind.gif" />
+    <Content Include="Styles\del.jpg" />
+    <Content Include="Styles\delete.gif" />
+    <Content Include="Styles\delete_6.gif" />
+    <Content Include="Styles\demo.css" />
+    <Content Include="Styles\dingyu.jpg" />
+    <Content Include="Styles\dy.JPG" />
+    <Content Include="Styles\edit.gif" />
+    <Content Include="Styles\ershou_1.gif" />
+    <Content Include="Styles\ershou_2.gif" />
+    <Content Include="Styles\favicon.gif" />
+    <Content Include="Styles\format.gif" />
+    <Content Include="Styles\fox.css" />
+    <Content Include="Styles\g.gif" />
+    <Content Include="Styles\gw.gif" />
+    <Content Include="Styles\gw2.gif" />
+    <Content Include="Styles\Home.png" />
+    <Content Include="Styles\icon-demo.gif" />
+    <Content Include="Styles\icon-login-seaver.gif" />
+    <Content Include="Styles\icon-mail2.gif" />
+    <Content Include="Styles\icon-phone.gif" />
+    <Content Include="Styles\icon2_004.png" />
+    <Content Include="Styles\icon2_089.png" />
+    <Content Include="Styles\icon2_090.png" />
+    <Content Include="Styles\imagedelete.gif" />
+    <Content Include="Styles\imageedit.gif" />
+    <Content Include="Styles\image_%28add%296.gif" />
+    <Content Include="Styles\image_1.gif" />
+    <Content Include="Styles\ipsecurity.gif" />
+    <Content Include="Styles\l1b3.gif" />
+    <Content Include="Styles\l1b4.gif" />
+    <Content Include="Styles\l1b5.gif" />
+    <Content Include="Styles\left-bg.gif" />
+    <Content Include="Styles\left-top-right.gif" />
+    <Content Include="Styles\left.png" />
+    <Content Include="Styles\line2.jpg" />
+    <Content Include="Styles\linkspic3.gif" />
+    <Content Include="Styles\linkspic6.gif" />
+    <Content Include="Styles\lm.gif" />
+    <Content Include="Styles\lminfo.gif" />
+    <Content Include="Styles\login-buttom-bg.gif" />
+    <Content Include="Styles\login-content-bg.gif" />
+    <Content Include="Styles\login-top-bg.gif" />
+    <Content Include="Styles\login-wel.gif" />
+    <Content Include="Styles\login_bg.jpg" />
+    <Content Include="Styles\Login_but.gif" />
+    <Content Include="Styles\logo.gif" />
+    <Content Include="Styles\logo.png" />
+    <Content Include="Styles\luck.gif" />
+    <Content Include="Styles\mail_leftbg.gif" />
+    <Content Include="Styles\mail_rightbg.gif" />
+    <Content Include="Styles\MCC.png" />
+    <Content Include="Styles\menu_bg.gif" />
+    <Content Include="Styles\menu_bg1.gif" />
+    <Content Include="Styles\menu_bg2.gif" />
+    <Content Include="Styles\menu_bgs.gif" />
+    <Content Include="Styles\menu_topimg.gif" />
+    <Content Include="Styles\menu_topline.gif" />
+    <Content Include="Styles\mime.gif" />
+    <Content Include="Styles\modernizr.custom.04022.js" />
+    <Content Include="Styles\nav-right-bg.gif" />
+    <Content Include="Styles\news-title-bg.gif" />
+    <Content Include="Styles\off.gif" />
+    <Content Include="Styles\ok.gif" />
+    <Content Include="Styles\OK.jpg" />
+    <Content Include="Styles\out.gif" />
+    <Content Include="Styles\password.gif" />
+    <Content Include="Styles\pic1.gif" />
+    <Content Include="Styles\pic10.gif" />
+    <Content Include="Styles\pic11.gif" />
+    <Content Include="Styles\pic12.gif" />
+    <Content Include="Styles\pic13.gif" />
+    <Content Include="Styles\pic14.gif" />
+    <Content Include="Styles\pic15.gif" />
+    <Content Include="Styles\pic16.gif" />
+    <Content Include="Styles\pic17.gif" />
+    <Content Include="Styles\pic18.gif" />
+    <Content Include="Styles\pic19.gif" />
+    <Content Include="Styles\pic21.gif" />
+    <Content Include="Styles\pic22.gif" />
+    <Content Include="Styles\pic23.gif" />
+    <Content Include="Styles\pic24.gif" />
+    <Content Include="Styles\pic25.gif" />
+    <Content Include="Styles\pic26.gif" />
+    <Content Include="Styles\pic5.gif" />
+    <Content Include="Styles\pic6.gif" />
+    <Content Include="Styles\pic7.gif" />
+    <Content Include="Styles\pic8.gif" />
+    <Content Include="Styles\pic9.gif" />
+    <Content Include="Styles\png-0134.png" />
+    <Content Include="Styles\png-0143.png" />
+    <Content Include="Styles\png-0145.png" />
+    <Content Include="Styles\QCA.png" />
+    <Content Include="Styles\QCApng.png" />
+    <Content Include="Styles\Redirects.gif" />
+    <Content Include="Styles\report2_%28add%29.gif" />
+    <Content Include="Styles\report2_%28delete%29.gif" />
+    <Content Include="Styles\right.png" />
+    <Content Include="Styles\right_smbg.jpg" />
+    <Content Include="Styles\servicezhgb2312.gif" />
+    <Content Include="Styles\set.gif" />
+    <Content Include="Styles\set2.gif" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\Site1.css" />
+    <Content Include="Styles\sitebackup.gif" />
+    <Content Include="Styles\skin.css" />
+    <Content Include="Styles\smallbg.jpg" />
+    <Content Include="Styles\st.gif" />
+    <Content Include="Styles\st.png" />
+    <Content Include="Styles\stop.gif" />
+    <Content Include="Styles\str.gif" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\style1.css" />
+    <Content Include="Styles\Submit_bg.gif" />
+    <Content Include="Styles\t2bg1.gif" />
+    <Content Include="Styles\t2bg2.gif" />
+    <Content Include="Styles\t2bg4.gif" />
+    <Content Include="Styles\t2bg5.gif" />
+    <Content Include="Styles\title.gif" />
+    <Content Include="Styles\tj.jpg" />
+    <Content Include="Styles\to.gif" />
+    <Content Include="Styles\tool-down-pic.gif" />
+    <Content Include="Styles\top-right.gif" />
+    <Content Include="Styles\top_bt.jpg" />
+    <Content Include="Styles\ts.gif" />
+    <Content Include="Styles\user-info.gif" />
+    <Content Include="Styles\usercontrol.gif" />
+    <Content Include="Styles\vie.gif" />
+    <Content Include="Styles\X.gif" />
+    <Content Include="Styles\xx.png" />
+    <Content Include="Styles\xxx.png" />
+    <Content Include="Styles\yc.gif" />
+    <Content Include="Styles\yx.gif" />
+    <Content Include="Styles\zTreeStyles\img\line_conn.gif" />
+    <Content Include="Styles\zTreeStyles\img\loading.gif" />
+    <Content Include="Styles\zTreeStyles\img\zTreeStandard.gif" />
+    <Content Include="Styles\zTreeStyles\img\zTreeStandard.png" />
+    <Content Include="Styles\zTreeStyles\zTreeStyle.css" />
+    <Content Include="Styles\删.png" />
+    <Content Include="Styles\增.png" />
+    <Content Include="Styles\提示.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\config.cs" />
+    <Compile Include="Basic\NumbJudge.cs" />
+    <Compile Include="Basic\FileBlog.cs" />
+    <Compile Include="Basic\SNTMod.cs" />
+    <Compile Include="Basic\SNTModInterface.cs" />
+    <Compile Include="DJSys\DJ_Act_Info.aspx.cs">
+      <DependentUpon>DJ_Act_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DJSys\DJ_Act_Info.aspx.designer.cs">
+      <DependentUpon>DJ_Act_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DJSys\DJ_Plan_Rev.aspx.cs">
+      <DependentUpon>DJ_Plan_Rev.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DJSys\DJ_Plan_Rev.aspx.designer.cs">
+      <DependentUpon>DJ_Plan_Rev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DJSys\DJ_Plan_Send.aspx.cs">
+      <DependentUpon>DJ_Plan_Send.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DJSys\DJ_Plan_Send.aspx.designer.cs">
+      <DependentUpon>DJ_Plan_Send.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceRecycle.aspx.cs">
+      <DependentUpon>ResourceRecycle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResourceRecycle.aspx.designer.cs">
+      <DependentUpon>ResourceRecycle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ORADCLib">
+      <Guid>{92096210-97DF-11CF-9F27-02608C4BF3B5}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3800</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
