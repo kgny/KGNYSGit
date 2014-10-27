@@ -1,9 +1,0 @@
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\bin\WebApplication1.dll
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\bin\WebApplication1.pdb
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\QCA.csprojResolveAssemblyReference.cache
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\Interop.ORADCLib.dll
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\QCA.csproj.ResolveComReference.cache
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll.licenses
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
-E:\项目\点巡检系统开发\Code\APP_V1.0\EnergyScore\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
