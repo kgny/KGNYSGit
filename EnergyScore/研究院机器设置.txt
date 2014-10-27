@@ -1,9 +1,0 @@
-IP：172.16.80.189
-
-用户名：administrator
-
-密码：1qaz@WSX
-
-数据库服务器:orcl,ES_USER/sa
-
-文件中dmp文件用户EMS_BS
